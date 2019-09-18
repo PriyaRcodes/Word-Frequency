@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html lang="en"> <!-- For specifying the language code as English. It can be followed by a country code -->
+    <head>
+        <meta charset="UTF-8"> <!-- Unicode Transformation Format using 8-bit code to represent a character.-->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Word Frequency</title>
+    </head>
+    <body>
+        <header>
+            <div id="topbar">
+                <h1> Word Frequency </h1>  
+            <hr>
+            </div> 
+        </header>
+        <br><br>
+        <div id ="content">
+            <textarea id="textarea">
+            Mahatma Gandhi found in salt a powerful symbol that could unite the nation.
+            He sent a letter to Viceroy Irwin stating eleven demands.
+            Some of these were of general interest; others were specific demands of different 
+            classes, from industrialists to peasants. The idea was to make the demands wide-ranging,
+            so that all classes within Indian society could identify with them and everyone could be 
+            brought together in a united campaign. The most stirring of all was the demand to abolish
+            the salt tax. Salt was something consumed by the rich and the poor alike, and it was one of 
+            the most essential items of food. The tax on salt and the government monopoly over its production,
+            Mahatma Gandhi declared, revealed the most oppressive face of British rule. Mahatma Gandhi’s 
+            letter was, in a way, an ultimatum. If the demands were not fulfilled on time, the letter stated,
+            the Congress would launch a civil disobedience campaign. Irwin was unwilling to negotiate. So Mahatma Gandhi 
+            started his famous salt march accompanied by some of his trusted volunteers. The volunteers walked for twenty four days, 
+            about ten miles a day. Thousands came to hear Mahatma Gandhi wherever he stopped, and he told them what he meant
+            by swaraj and urged them to peacefully defy the British.He ceremonially violated after the law, manufacturing salt 
+            by boiling sea water. This marked the beginning of the Civil Disobedience Movement. 
+            </textarea>
+            <br><br>
+            <input class="btn" type="button" value="Count Words" onclick="onSubmit()">
+        </div>
+        <br><br>
+        <div id="frequency_table"></div>
+        <br><br><br><br><br>
+        <hr>
+        <footer>
+            <small>Copyright © 2019, Made with ❤️ by Priya R</small>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
